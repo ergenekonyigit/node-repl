@@ -32,7 +32,7 @@
   "scripts": {
     "dev": "babel-node src/run.js",
     "test": "jest --config=test/jest.config.json",
-    "test:watch": "npm test -- --watch"
+    "test:watch": "npm test -- --watchAll"
   },
   "LICENSE": "MIT"
 }
