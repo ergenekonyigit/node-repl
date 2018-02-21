@@ -1,4 +1,4 @@
-import log from './pretty-log'
+import log from '../scripts/pretty-log'
 
 export const sum = (...arr) => [...arr].reduce((acc, val) => acc + val, 0);
 

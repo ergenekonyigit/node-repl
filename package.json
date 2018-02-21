@@ -1,6 +1,6 @@
 {
   "name": "node-repl",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "homepage": "https://github.com/ergenekonyigit/node-repl",
   "repository": {
     "type": "git",
@@ -30,8 +30,8 @@
     "split-guide": "^3.0.0"
   },
   "scripts": {
-    "dev": "babel-node src/run.js",
-    "test": "jest --config=test/jest.config.json",
+    "dev": "babel-node scripts/run.js",
+    "test": "jest --config=jest.config.json",
     "test:watch": "npm test -- --watchAll"
   },
   "LICENSE": "MIT"

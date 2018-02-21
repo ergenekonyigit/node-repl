@@ -14,7 +14,7 @@ sayCommands()
 listenForInput()
 
 function watchFiles() {
-  return chokidar.watch('*.js', {cwd, ignoreInitial: true}).on('change', relativePath => {
+  return chokidar.watch('../src/*.js', {cwd, ignoreInitial: true}).on('change', relativePath => {
     rerunFile(relativePath)
   })
 }
