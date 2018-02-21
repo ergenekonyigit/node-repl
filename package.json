@@ -1,0 +1,38 @@
+{
+  "name": "node-repl",
+  "version": "1.0.0",
+  "homepage": "https://github.com/ergenekonyigit/node-repl",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ergenekonyigit/node-repl.git"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^8.2.2",
+    "babel-jest": "^22.4.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "chalk": "^2.3.1",
+    "chokidar": "^2.0.2",
+    "eslint": "^4.18.1",
+    "eslint-config-kentcdodds": "^13.0.1",
+    "eslint-plugin-babel": "^4.1.2",
+    "glob": "^7.1.2",
+    "jest-cli": "^22.4.0",
+    "lodash": "^4.17.5",
+    "onchange": "^3.3.0",
+    "prettier-eslint-cli": "^4.7.1",
+    "pretty-format": "^22.4.0",
+    "replace-in-file": "^3.1.1",
+    "split-guide": "^3.0.0"
+  },
+  "scripts": {
+    "dev": "babel-node src/run.js",
+    "test": "jest --config=test/jest.config.json",
+    "test:watch": "npm test -- --watch"
+  },
+  "LICENSE": "MIT"
+}
